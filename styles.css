@@ -108,6 +108,8 @@
       color: #8C999B;
     }
 
+
+
     .photo-btn {
       background-color: #96856f;
       color: #ffeeda;
@@ -120,10 +122,31 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+
     .photo-btn:hover {
       background-color: #909090;
       color: #FFF;
     }
+
+
+    .amo-btn {
+      background-color: #2195ee; /*38b6ff*/
+      color: #FFFFFF;
+      margin: 10px;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .amo-btn:hover {
+      background-color: #00bbef;
+    }
+
+
     .shop-btn {
       background-color: #ee6521;
       color: #FFFFFF;
@@ -136,9 +159,12 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+
     .shop-btn:hover {
       background-color: #ef7500;
     }
+
+
     .music-btn {
       background-color: #707070;
       color: #FFFFFF;
@@ -155,18 +181,21 @@
       background-color: #005B99;
     }
 
+
     .cta {
       background-color: #007ACC;
       color: #FFFFFF;
       text-align: center;
       padding: 2rem;
     }
+
     .cta h2 {
       font-family: 'Poppins', sans-serif;
       font-weight: 600;
       font-size: 2rem;
       margin-bottom: 1rem;
     }
+
     .cta button {
       background-color: #FF6F61;
       color: #FFFFFF;
@@ -178,9 +207,13 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+
     .cta button:hover {
       background-color: #CC574E;
     }
+
+
+
 footer {
   background-color: #FAF9F7; /* Footer background color */
   padding: 20px 10px;
@@ -277,6 +310,11 @@ footer p {
 
 #photography {
   background-color: #f8f4ef;
+}
+
+#amo {
+  color: #38b6ff;
+  background-color: #d5f1fb;
 }
 
 #store {
